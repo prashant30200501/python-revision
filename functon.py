@@ -27,3 +27,15 @@ content = file.read()
 print(content)
 file.close()
 
+
+with open("pythonn.txt","w+") as file:
+    file.write("nfdkjnisd0")
+    file.seek(0)
+    content=file.read()
+    print(content)
+
+
+
+
+
+
