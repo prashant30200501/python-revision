@@ -17,3 +17,13 @@ try:
 except:
     print("jdsnkjnn")
 
+
+file = open("python.txt","w+")
+
+file.write("bjfdsvjfdsi")
+
+file.seek(0)
+content = file.read()
+print(content)
+file.close()
+
